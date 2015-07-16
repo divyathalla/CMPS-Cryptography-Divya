@@ -267,7 +267,7 @@ while s:
                 while(i<len(newMessage)-1):
                     
                     returnValue = myCipher.getCodedDigraph([newMessage[i],newMessage[i+1]])
-                    #joining the two text messages
+    #joining the two text messages
                    
                     plaintext = plaintext + ciphertext.join(returnValue)
                    
@@ -276,12 +276,13 @@ while s:
                 print(plaintext)
                 s2 = False
                 break
-        elif x == '2' :
-            print('PlayfairEncryption Tool(P.E.T)')
-            print('Written by Thalla Divya')
-            print ("Decryption")
-            print ('Enter the message')
-            print('Enter the key')
+    #Decryptes the message which is already encrypted
+            if x == '2' :
+                print('PlayfairEncryption Tool(P.E.T)')
+                print('Written by Thalla Divya')
+                print ("Decryption")
+                print ('Enter the message')
+                print('Enter the key')
             while True:
                 message = input('Enter Encrypted Message:')
                 print (' ')
@@ -308,5 +309,17 @@ while s:
                 s2 = False
                 break
         #if two cases fails then the loop exits
-        elif x == '3' :
+        if x == '3' :
             break
+
+   
+
+      
+
+      
+       
+       
+          
+
+               
+               
