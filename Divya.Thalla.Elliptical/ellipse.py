@@ -46,8 +46,7 @@ def plotcurve(w,h,a,b,m,x1,y1,x2,y2,x3,y3):
 # Use a contour plot to draw the line (in pink) connecting our point.
     plt.contour(x.ravel(), y.ravel(), (y-y1)-m*(x-x1), [0],colors=('pink'))
 
-# I hard coded the third point, YOU will use good ol mathematics to find
-# the third point
+
     plt.plot(x3, y3,'yo')
 
 # Annotate point 3
