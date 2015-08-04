@@ -1,3 +1,9 @@
+#########################################################
+#Name: Thalla Divya
+#Class: CMPS 5363 Cryptography
+#Date: 4th August 2015
+#Program 3 - Elliptical Curve Encryption
+#########################################################
 import math
 import numpy as np
 import matplotlib.pyplot as plt
